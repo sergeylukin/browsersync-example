@@ -38,7 +38,7 @@
     var alarmButtonEl = document.querySelector('.js-alarm-button'),
         alarmEl = document.querySelector('.js-alarm'),
         alarmFormCancelButtonEl = document.querySelector('.js-alarm-form-cancel-button'),
-        alarmForm = document.querySelector('.js-alarm-form');
+        alarmFormSubmitEl = document.querySelector('.js-alarm-form-submit');
 
     // Flip to "Alarm set" form
     alarmButtonEl.addEventListener('click', function(evt) {
@@ -48,7 +48,7 @@
     }, false);
 
     // Set an alarm
-    alarmForm.addEventListener('submit', function(evt) {
+    alarmFormSubmitEl.addEventListener('click', function(evt) {
       evt.preventDefault();
 
       var hour = document.querySelector('.js-alarm-hour').value,
@@ -56,13 +56,10 @@
 
       alarm.hour = hour;
       alarm.minute = minute;
-      console.log(alarm);
 
       alarmEl.classList.remove('is-flipped');
 
-      return false;
-
-    }, true);
+    }, false);
 
     // Cancel setting an alarm
     alarmFormCancelButtonEl.addEventListener('click', function(evt) {
