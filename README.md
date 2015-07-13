@@ -21,3 +21,8 @@
 ## Demo
 
 ![Browsersync example app demo usage](https://raw.githubusercontent.com/sergeylukin/browsersync-example/master/extras/demo.gif)
+
+## Credits
+
+- Great [Golden Cocoon palette](http://www.colourlovers.com/palette/3819835/Golden_Cocoon)
+  from [colourlovers.com](http://colourlovers.com)
