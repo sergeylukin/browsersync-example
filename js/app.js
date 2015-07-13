@@ -83,8 +83,13 @@
     document.querySelector('.js-clock').innerHTML =
       hours + ":" + minutes + ":" + seconds + "." + milliseconds;
 
-    if (hours == alarm.hour && minutes == alarm.minute) {
+    if (hours == alarm.hour && minutes == alarm.minute && seconds == 0) {
       document.querySelector('.js-alarm-button-icon').classList.add('is-ringing');
+
+      // Make sure to remove the ringing class so that it can be re-attached
+      setTimeout(function() {
+        document.querySelector('.js-alarm-button-icon').classList.remove('is-ringing');
+      }, 5000);
 
       alarm.hour = null;
       alarm.minute = null;
