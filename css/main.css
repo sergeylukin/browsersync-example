@@ -44,6 +44,7 @@ option {
 
 .Button {
   border-radius: 3px;
+  -webkit-appearance: none;
   border: 0px none;
   color: #FFF;
   font-size: 20px;
