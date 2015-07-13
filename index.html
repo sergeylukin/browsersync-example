@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Testing Browsersync</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+
+    <div class="Clock">
+      <div class="Alarm js-alarm">
+        <div class="Alarm-form">
+          <form class="js-alarm-form">
+            <select name="hour" class="js-alarm-hour">
+              <option value="00">00</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+            </select>
+
+            <p class="Alarm-form-separator">:</p>
+
+            <select name="minute" class="js-alarm-minute">
+              <option value="00">00</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+              <option value="32">32</option>
+              <option value="33">33</option>
+              <option value="34">34</option>
+              <option value="35">35</option>
+              <option value="36">36</option>
+              <option value="37">37</option>
+              <option value="38">38</option>
+              <option value="39">39</option>
+              <option value="40">40</option>
+              <option value="41">41</option>
+              <option value="42">42</option>
+              <option value="43">43</option>
+              <option value="44">44</option>
+              <option value="45">45</option>
+              <option value="46">46</option>
+              <option value="47">47</option>
+              <option value="48">48</option>
+              <option value="49">49</option>
+              <option value="50">50</option>
+              <option value="51">51</option>
+              <option value="52">52</option>
+              <option value="53">53</option>
+              <option value="54">54</option>
+              <option value="55">55</option>
+              <option value="56">56</option>
+              <option value="57">57</option>
+              <option value="58">58</option>
+              <option value="59">59</option>
+              <option value="60">60</option>
+              <option value="61">61</option>
+              <option value="62">62</option>
+              <option value="63">63</option>
+              <option value="64">64</option>
+              <option value="65">65</option>
+              <option value="66">66</option>
+              <option value="67">67</option>
+              <option value="68">68</option>
+              <option value="69">69</option>
+              <option value="70">70</option>
+              <option value="71">71</option>
+              <option value="72">72</option>
+              <option value="73">73</option>
+              <option value="74">74</option>
+              <option value="75">75</option>
+              <option value="76">76</option>
+              <option value="77">77</option>
+              <option value="78">78</option>
+              <option value="79">79</option>
+              <option value="80">80</option>
+              <option value="81">81</option>
+              <option value="82">82</option>
+              <option value="83">83</option>
+              <option value="84">84</option>
+              <option value="85">85</option>
+              <option value="86">86</option>
+              <option value="87">87</option>
+              <option value="88">88</option>
+              <option value="89">89</option>
+              <option value="90">90</option>
+              <option value="91">91</option>
+              <option value="92">92</option>
+              <option value="93">93</option>
+              <option value="94">94</option>
+              <option value="95">95</option>
+              <option value="96">96</option>
+              <option value="97">97</option>
+              <option value="98">98</option>
+              <option value="99">99</option>
+              <option value="100">100</option>
+            </select>
+
+            <input type="submit" value="Set Alarm!" class="Button" />
+          </form>
+
+          <p class="Alarm-form-cancel">
+          or <a href="#" class="Alarm-form-cancel-button js-alarm-form-cancel-button">Cancel</a>
+          </p>
+        </div>
+        <a href="#" class="Alarm-button js-alarm-button">
+          Alarm
+          <svg class="Alarm-button-icon js-alarm-button-icon" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Clock</title>
+            <desc>Icon of alarm clock</desc>
+            <g id="Clock" fill-rule="evenodd">
+              <path d="M9.86327202,18.5194738 L11.3125094,17.0702364 L14.1650484,19.9227754 L20.7430816,13.3447422 L22.1367278,14.7383885 L14.1094574,22.7656592 L9.86327202,18.5194738 Z M16,27.6289312 C21.5228475,27.6289312 26,23.1517787 26,17.6289312 C26,12.1060837 21.5228475,7.62893121 16,7.62893121 C10.4771525,7.62893121 6,12.1060837 6,17.6289312 C6,23.1517787 10.4771525,27.6289312 16,27.6289312 L16,27.6289312 Z M16,29.6289312 C22.627417,29.6289312 28,24.2563482 28,17.6289312 C28,11.0015142 22.627417,5.62893121 16,5.62893121 C9.372583,5.62893121 4,11.0015142 4,17.6289312 C4,24.2563482 9.372583,29.6289312 16,29.6289312 Z M1.88108806,7.82705567 L7.73191768,2.37106879 L10.1189119,4.93080675 L4.26808232,10.3867936 L1.88108806,7.82705567 Z M24.2680823,2.37106879 L21.8810881,4.93080675 L27.7319177,10.3867936 L30.1189119,7.82705567 L24.2680823,2.37106879 Z"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+
+      <time class="Clock-display js-clock">Alarm clock</time>
+
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
+
