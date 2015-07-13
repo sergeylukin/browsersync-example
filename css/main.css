@@ -78,7 +78,7 @@ option {
 .Alarm {
   position: relative;
   height: 256px;
-  width: 256px;
+  width: 278px;
   -webkit-transition: -webkit-transform .4s;
           transition: transform .4s;
   -webkit-transform-style: preserve-3d;
