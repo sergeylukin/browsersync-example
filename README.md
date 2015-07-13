@@ -17,3 +17,7 @@
   ```
 
 - Connect as many devices as possible and give this small alarm clock a try :)
+
+## Demo
+
+![Browsersync example app demo usage](https://raw.githubusercontent.com/sergeylukin/browsersync-example/master/extras/demo.gif)
