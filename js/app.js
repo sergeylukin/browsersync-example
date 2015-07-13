@@ -60,7 +60,9 @@
 
       alarmEl.classList.remove('is-flipped');
 
-    }, false);
+      return false;
+
+    }, true);
 
     // Cancel setting an alarm
     alarmFormCancelButtonEl.addEventListener('click', function(evt) {
