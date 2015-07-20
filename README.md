@@ -10,8 +10,9 @@ using [Browsersync](http://www.browsersync.io/) with a single purpose -
 provide a basic starting point for anyone interested in `Browsersync`
 to test it's capabilities. Think of it as a DIY kit which is assembled in a
 very minimal setup and which you could change/enhance while using
-`Browsersync` to get the feeling of how it is developing against multiple
-devices/browsers simultaneously.
+`Browsersync` to get the feeling of developing against multiple
+devices/browsers simultaneously + bringing your skills to test
+along the way.
 
 This project was created to serve as an practical example for a blog post
 released on [Code4Startup.com](https://code4startup.com/) (link coming soon!)
