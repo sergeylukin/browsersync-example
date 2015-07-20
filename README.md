@@ -1,6 +1,6 @@
 # Starting point for Browsersync driven development
 
-[![Browsersync example app](https://raw.githubusercontent.com/sergeylukin/browsersync-example/master/extras/cover.png)](https://sergeylukin.github.io/browsersync-example/)
+[![Browsersync example app](https://raw.githubusercontent.com/sergeylukin/browsersync-example/master/extras/header.png)](https://sergeylukin.github.io/browsersync-example/)
 
 ## About
 
