@@ -14,8 +14,9 @@ very minimal setup and which you could change/enhance while using
 devices/browsers simultaneously + bringing your skills to test
 along the way.
 
-This project was created to serve as an practical example for a blog post
-released on [Code4Startup.com](https://code4startup.com/) (link coming soon!)
+This project was created to serve as an practical example for a
+[blog post](https://code4startup.com/startuphack/real-time-web-development-against-multiple-devices)
+released on [Code4Startup.com](https://code4startup.com/)
 
 [Try it now!](https://sergeylukin.github.io/browsersync-example/)
 
@@ -72,7 +73,8 @@ use `Browsersync` ;) ):
 I'd like to thank following resources as this project wouldn't exist or
 wouldn't be that awesome without them:
 
-- [code4startup.com](https://code4startup.com/) for encouraging me to write   a blog post (link coming soon!) which this project comes along with
+- [code4startup.com](https://code4startup.com/) for encouraging me to write   a [blog post](https://code4startup.com/startuphack/real-time-web-development-against-multiple-devices)
+  which this project comes along with
 
 - Great [Golden Cocoon palette](http://www.colourlovers.com/palette/3819835/Golden_Cocoon)
   from [colourlovers.com](http://colourlovers.com)
